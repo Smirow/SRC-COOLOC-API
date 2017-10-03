@@ -8,12 +8,11 @@
     "ecmaVersion": 6
   },
   "rules": {
-    "comma-dangle": ["error", "always-multiline"],
     "no-cond-assign": "error",
     "no-console": "off",
     "no-unused-expressions": "error",
 
-    "array-bracket-spacing": ["error", "never"],
+    "array-bracket-spacing": ["error", "always"],
     "block-spacing": ["error", "always"],
     "brace-style": ["error", "1tbs", {"allowSingleLine": true}],
     "camelcase": ["error", {"properties": "always"}],
