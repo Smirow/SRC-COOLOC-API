@@ -36,8 +36,12 @@
     "dataSource": "db",
     "public": false
   },
-  "Customer": {
-    "dataSource": "db",
+  "RoomMate": {
+    "dataSource": "cooloc-db",
+    "public": true
+  },
+  "Colloc": {
+    "dataSource": "cooloc-db",
     "public": true
   }
 }

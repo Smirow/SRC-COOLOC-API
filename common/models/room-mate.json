@@ -1,8 +1,8 @@
 {
-  "name": "Customer",
-  "plural": "Customers",
+  "name": "RoomMate",
+  "plural": "RoomMates",
   "base": "User",
-  "idInjection": true,
+  "idInjection": false,
   "options": {
     "validateUpsert": true
   },
