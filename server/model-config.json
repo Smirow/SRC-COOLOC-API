@@ -39,5 +39,9 @@
   "RoomMate": {
     "dataSource": "cooloc-db",
     "public": true
+  },
+  "Colloc": {
+    "dataSource": "cooloc-db",
+    "public": true
   }
 }
