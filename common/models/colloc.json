@@ -1,6 +1,7 @@
 {
   "name": "Colloc",
   "base": "PersistedModel",
+  "plural": "Collocs",
   "idInjection": false,
   "options": {
     "validateUpsert": true

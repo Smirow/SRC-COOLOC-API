@@ -1,5 +1,6 @@
 {
   "name": "RoomMate",
+  "plural": "RoomMates",
   "base": "User",
   "idInjection": false,
   "options": {
