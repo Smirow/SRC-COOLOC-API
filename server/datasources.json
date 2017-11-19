@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "cooloc-db": {
+    "host": "ds119395.mlab.com",
+    "port": 19395,
+    "url": "mongodb://cooloctest:cooloctest@ds119395.mlab.com:19395/cooloc-db",
+    "database": "cooloc-db",
+    "password": "cooloctest",
+    "name": "cooloc-db",
+    "user": "cooloctest",
+    "connector": "mongodb"
   }
 }
