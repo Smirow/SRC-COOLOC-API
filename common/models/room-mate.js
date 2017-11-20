@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function(Roommate) {
+module.exports = function (Roommate) {
 
 };
 
