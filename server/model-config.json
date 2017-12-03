@@ -43,5 +43,9 @@
   "Colloc": {
     "dataSource": "cooloc-db",
     "public": true
+  },
+  "Depense": {
+    "dataSource": "cooloc-db",
+    "public": true
   }
 }

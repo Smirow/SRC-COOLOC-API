@@ -1,0 +1,31 @@
+{
+  "name": "Depense",
+  "plural": "Depenses",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "colloc_id": {
+      "type": "number",
+      "required": true
+    },
+    "buyer_id": {
+      "type": "number",
+      "required": true
+    },
+    "parts": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
