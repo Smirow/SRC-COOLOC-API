@@ -6,7 +6,12 @@
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+		"colloc": {
+      "type": "string",
+      "required": false
+    }
+	},
   "validations": [],
   "relations": {},
   "acls": [],
