@@ -18,7 +18,7 @@
     "public": false
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "cooloc-db",
     "public": false
   },
   "ACL": {
@@ -41,6 +41,14 @@
     "public": true
   },
   "Colloc": {
+    "dataSource": "cooloc-db",
+    "public": true
+  },
+  "Depense": {
+    "dataSource": "cooloc-db",
+    "public": true
+  },
+  "Invitation": {
     "dataSource": "cooloc-db",
     "public": true
   }

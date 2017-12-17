@@ -1,0 +1,60 @@
+{
+  "name": "Depense",
+  "plural": "Depenses",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "creator": {
+      "type": "string",
+      "required": true
+		},
+		"creatorUsername": {
+      "type": "string",
+      "required": true
+    },
+    "domaine": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "price": {
+      "type": "number",
+      "required": true
+    },
+    "colloc": {
+      "type": "string",
+      "required": true
+		},
+		"participations": {
+			"type": "array"
+		}
+  },
+  "validations": [],
+  "relations": {
+		"colloc": {
+      "type": "belongsTo",
+      "model": "Colloc",
+			"foreignKey": "colloc"
+		}
+	},
+  "acls": [
+		{
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "*"
+    }
+	],
+  "methods": {}
+}

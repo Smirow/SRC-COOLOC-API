@@ -1,0 +1,38 @@
+{
+  "name": "Invitation",
+  "plural": "Invitations",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "colloc": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+		"colloc": {
+      "type": "belongsTo",
+      "model": "Colloc",
+      "foreignKey": "colloc",
+      "primaryKey": "id"
+    }
+	},
+  "acls": [
+		{
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "*"
+    }
+	],
+  "methods": {}
+}
